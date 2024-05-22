@@ -15,6 +15,10 @@ describe('Help Alf', function() {
 		expect(searching.add('........../n ........../n ........../n ........../n .....X..../n ........../n')).toEqual('[5,1]');
 	});
 
+	it('should return "[0,0]"', function() {
+		expect(searching.add('........../n ........../n ........../n ........../n ........../n X........./n')).toEqual('[0,0]');
+	});
+
 	
 
 });
