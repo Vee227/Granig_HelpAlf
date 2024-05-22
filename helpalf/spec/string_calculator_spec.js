@@ -11,6 +11,10 @@ describe('Help Alf', function() {
 		expect(searching.add('........../n ........../n ....X...../n ........../n ........../n ........../n')).toEqual('[4,3]');
 	});
 
+	it('should return "[5,1]"', function() {
+		expect(searching.add('........../n ........../n ........../n ........../n .....X..../n ........../n')).toEqual('[5,1]');
+	});
+
 	
 
 });
