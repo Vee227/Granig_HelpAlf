@@ -23,6 +23,10 @@ describe('Help Alf', function() {
 		expect(searching.add('..X.......\n..........\n..........\n..........\n..........\n..........')).toEqual('[2,5]');
 	});
 
+	it('should return "[7,2]"', function() {
+		expect(searching.add('..........\n..........\n..........\n.......X..\n..........\n..........')).toEqual('[7,2]');
+	});
+
 	
 
 });
