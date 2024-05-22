@@ -1,9 +1,10 @@
-describe('String Calculator', function() {
+describe('Help Alf', function() {
 	beforeEach(function() {
-		calculator = new StringCalculator();
+		searching = new HelpAlf();
 	});
 
-	it('should return 0 for an empty string', function() {
-		expect(calculator.add('')).toEqual(0);
+	it('should return "Spaceship lost forever"', function() {
+		expect(searching.add('........../n ........../n ........../n ........../n ........../n ........../n')).toEqual('Spaceship lost forever');
 	});
+
 });
