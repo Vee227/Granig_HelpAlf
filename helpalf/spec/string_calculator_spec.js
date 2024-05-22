@@ -7,4 +7,10 @@ describe('Help Alf', function() {
 		expect(searching.add('........../n ........../n ........../n ........../n ........../n ........../n')).toEqual('Spaceship lost forever');
 	});
 
+	it('should return "[4,3]"', function() {
+		expect(searching.add('........../n ........../n ....X...../n ........../n ........../n ........../n')).toEqual('[4,3]');
+	});
+
+	
+
 });
