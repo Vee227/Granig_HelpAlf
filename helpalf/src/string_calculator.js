@@ -1,5 +1,5 @@
 // StringCalculator.js
-function StringCalculator() {}
-StringCalculator.prototype.add = function(string_numbers) {
+function HelpAlf() {}
+HelpAlf.prototype.add = function(string_numbers) {
 	//
 };
